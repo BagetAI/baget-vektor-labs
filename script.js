@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             try {
-                const response = await fetch(`https://baget.ai/api/public/databases/${databaseId}/rows`, {
+                const response = await fetch(`https://app.baget.ai/api/public/databases/${databaseId}/rows`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
